@@ -25,7 +25,8 @@ const CourseSchema = new mongoose.Schema({
     title: String,
     description: String,
     imageLink: String,
-    price: Number
+    price: Number,
+    published: Boolean
 });
 
 const Admin = mongoose.model('Admin', AdminSchema);
